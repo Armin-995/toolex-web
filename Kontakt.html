@@ -16,7 +16,7 @@
     <main>
         <section>
             <h1>Kontaktiere uns!</h1>
-            <form action="https://formsubmit.co/your@email.com" method="POST">
+            <form action="https://formsubmit.co/imventrixx@gmail.com" method="POST">
                 <label for="fname">Vorname</label>
                 <input id="fname" type="text"><br>
                 <label for="lname">Nachname</label>
@@ -37,22 +37,5 @@
 
 
     </main>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script>
-        function sendEmail(){
-            Email.send({
-            Host : "smtp.gmail.com",
-            Username : "armin.said04@gmail.com",
-            Password : "cAnfo8-fipker-kizdud",
-            To : 'imventrixx@gmail.com',
-            From : document.getElementById("email").value,
-            Subject : "This is the subject",
-            Body : "And this is the body"
-}).then(
-  message => alert(message)
-);
-        }
-    </script>
-
 </body>
 </html>
