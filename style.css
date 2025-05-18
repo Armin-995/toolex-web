@@ -1,14 +1,24 @@
 body {
+    background: #3944BC;
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    color: #FFF;
 }
+
+search {
+    background: #377416;
+    color: #000;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+a {
+    color: #FFF;
+}
+
 header {
-    background: #007BFF;
-    color: #fff;
     padding: 1rem 0;
     text-align: center;
 }
